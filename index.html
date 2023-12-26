@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Goran Gajšek" />
+		<link rel="icon" href="./icons/done-all.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Inconsolata&family=Roboto:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Goran Gajšek</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<nav>
+					<ul class="navigation-header">
+						<li>
+							<a href="#top">Home</a>
+						</li>
+						<li>
+							<a href="#about">About</a>
+						</li>
+						<li>
+							<a href="#portfolio">Portfolio</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<button class="hamburger">
+					<div class="bar"></div>
+				</button>
+			</div>
+			<nav class="mobile-nav">
+				<ul>
+					<li>
+						<a href="#top" class="mobile-nav-link">Home</a>
+					</li>
+					<li>
+						<a href="#about" class="mobile-nav-link">About</a>
+					</li>
+					<li>
+						<a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+					</li>
+					<li>
+						<a href="#contact" class="mobile-nav-link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		</nav>
+		<main class="wrapper">
+			<section class="landing-wrapper" id="home">
+				<div class="landing-page">
+					<img src="image/myimage1.jpg" alt="Picture of myself" />
+					<h2>Hi, I'm Goran</h2>
+					<h1>
+						Front-end <br />
+						web developer
+					</h1>
+					<p>
+						Hey! I am working on my portfolio to become a front-end developer
+						and this is my work!
+					</p>
+				</div>
+			</section>
+			<section class="about-wrapper" id="about">
+				<div class="about-page">
+					<h2>About Me</h2>
+					<p>
+						Hello! I'm Goran, a passionate front-end developer with a keen eye
+						for detail and a love for creating visually appealing, user-friendly
+						websites. My journey in web development began around late 2022
+						and throughout 2023 I kept on learning.
+					</p>
+					<h3>What I Do:</h3>
+					<p>
+						I specialize in front-end technologies, including HTML, CSS, and
+						JavaScript. My goal is to craft seamless, responsive, and engaging
+						user experiences. I enjoy the challenge of translating design
+						concepts into code and collaborating with cross-functional teams to
+						bring digital visions to life.
+					</p>
+					<h3>My Skills:</h3>
+					<ol>
+						<li>Languages: Proficient in HTML, CSS, JavaScript.</li>
+						<li>Frameworks: React.</li>
+						<li>Tools: Experience with version control systems - Git.</li>
+					</ol>
+					<h3>Why I Love Front-End Development:</h3>
+					<p>
+						For me, front-end development is more than just writing code—it's
+						about creating digital experiences that resonate with users. I'm
+						fascinated by the intersection of design and technology, and I
+						thrive on the continuous learning that comes with this ever-evolving
+						field.
+					</p>
+				</div>
+				<div class="slider slickTest">
+					<div>
+						<img src="./image/blog.png" alt="My blog webpage" />
+					</div>
+					<div>
+						<img src="./image/coincap.png" alt="My cryptocurrency webpage" />
+					</div>
+					<div>
+						<img src="./image/chatapp.png" alt="My chat app webpage" />
+					</div>
+					<div>
+						<img src="./image/portfoliotop.png" alt="My portfolio webpage" />
+					</div>
+				</div>
+			</section>
+			<section class="portfolio-wrapper" id="portfolio">
+				<div class="portfolio-page">
+					<h2>PORTFOLIO</h2>
+					<div class="portfolio-div">
+						<div class="portfolio-width">
+							<h3>BLOG & NEWSLETTER<span><a href="">Github code</a></span></h3>
+							<p>
+								Elevate the sports enthusiasts' experience with this dynamic
+								blog and newsletter platform. Seamlessly integrating rich
+								content on various sports, the design fosters engagement
+								through a user-friendly interface. Stay updated with the latest
+								sports news.
+							</p>
+						</div>
+						<div class="portfolio-width-second">
+							<img src="./image/blog.png" class="image-blog" alt="My blog webpage" />
+						</div>
+					</div>
+					<div class="portfolio-div">
+						<div class="portfolio-width-second">
+							<img src="./image/coincap.png" class="image-coincap" alt="My cryptocurrency webpage" />
+						</div>
+						<div class="portfolio-width">
+							<h3>COINCAP<span><a href="">Github code</a></span></h3>
+							<p>
+								Accurate and real-time pricing information for a wide range of 
+								cryptocurrencies using an API to generate data.
+							</p>
+						</div>
+					</div>
+					<div class="portfolio-div">
+						<div class="portfolio-width">
+							<h3>CHAT-APP<span><a href="">Github code</a></span></h3>
+							<p class="portfolio-paragraph">
+								Platform designed for simplicity and ease of use, allowing 
+								multiple users to communicate with real-time messaging.
+							</p>
+						</div>
+						<div class="portfolio-width-second">
+							<img src="./image/chatapp.png" class="image-chatapp" alt="My chat app webpage" />
+						</div>
+					</div>
+					<div class="portfolio-div">
+						<div class="portfolio-width-second">
+							<img src="./image/portfolio.png" class="image-portfolio" alt="My portfolio webpage" />
+						</div>
+						<div class="portfolio-width">
+							<h3>Portfolio<span><a href="">Github code</a></span></h3>
+							<p class="portfolio-paragraph">
+								Explore my projects in this portfolio page. From a sports blog, 
+								cryptocurrency API and a simple chat application to my 
+								portfolio, this page showcases my projects in front-end
+								development.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact-wrapper" id="contact">
+				<div class="contact-page">
+					<h2>CONTACT</h2>
+					<p>
+						Let's connect and turn ideas into reality! Whether you have a project in mind, want to discuss potential collaborations, 
+						or simply have a question, I'm here to listen. Feel free to reach out through the contact form below.
+					</p>
+					<a href="mailto: gorangajsek22@gmail.com">Reach out</a>
+					<small>Made by Goran</small>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-wrapper">
+				<ul class="navigation-footer">
+					<li>
+						<a href="https://github.com/gorangg96" target="_blank"
+							><img src="./icons/github.svg" alt="Github icon" />GitHub</a
+						>
+					</li>
+					<li>
+						<a href="https://hr.linkedin.com/" target="_blank"
+							><img src="./icons/linkedin.svg" alt="Linkedin icon" />LinkedIn</a
+						>
+					</li>
+					<li>
+						<a href="#top"><img src="./icons/home.svg" alt="Home button icon" />Home</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/omnity_gg" target="_blank"
+							><img src="./icons/twitter.svg" alt="Twitter icon" />Twitter</a
+						>
+					</li>
+					<li>
+						<a href="mailto: gorangajsek22@gmail.com"
+							><img src="./icons/mail.svg" alt="Mailbox icon" />Mail</a
+						>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
