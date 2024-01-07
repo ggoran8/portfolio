@@ -270,6 +270,25 @@ header {
 			flex-direction: row;
 			margin-bottom: 32px;
 
+			.portfolio-div-last {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				.portfolio-width {
+					text-align: center;
+
+					h3 {
+						padding-top: 8px;
+					}
+				}
+
+				.portfolio-paragraph {
+					text-align: center;
+				}
+			}
+
 			.portfolio-width {
 				display: flex;
 				justify-content: center;
@@ -298,7 +317,7 @@ header {
 			}
 
 			.portfolio-width-second {
-				width: 475px;
+				width: 50%;
 				height: 270px;
 				overflow: hidden;
 
@@ -424,6 +443,23 @@ footer {
 }
 
 @media (max-width: 1024px) {
+	.about-wrapper {
+		flex-direction: column;
+		width: 100%;
+		text-align: justify;
+		min-height: 120svh;
+		border-bottom: 1px solid rgb(65, 65, 65);
+		gap: 20px;
+
+		.slider {
+			width: 50%;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
 	.portfolio-wrapper {
 		width: 70%;
 		margin: 68px 0;
@@ -445,18 +481,40 @@ footer {
 	}
 
 	.portfolio-wrapper {
-		width: 80%;
 		margin: 68px 0;
+		display: flex;
+		flex-direction: column;
 
 		.portfolio-page {
-			.portfolio-width-second {
+			.portfolio-div {
 				display: flex;
+				flex-direction: column;
+				justify-content: center;
 				align-items: center;
+
+				.portfolio-width {
+					width: 100%;
+					order: 1;
+
+					h3 {
+						text-align: left;
+					}
+
+					.portfolio-paragraph {
+						text-align: left;
+					}
+				}
 			}
 
-			img {
-				width: 300px;
-				height: auto;
+			.portfolio-width-second {
+				width: 100%;
+				margin-top: 16px;
+				order: 2;
+
+				img {
+					width: 100%;
+					height: auto;
+				}
 			}
 		}
 	}
@@ -477,8 +535,8 @@ footer {
 			font-size: 16px;
 		}
 		img {
-			width: 200px;
-			height: 190px;
+			width: 50%;
+			height: auto;
 		}
 	}
 
@@ -527,7 +585,6 @@ footer {
 
 			img {
 				width: 80%;
-				height: auto;
 			}
 		}
 	}
@@ -555,13 +612,12 @@ footer {
 			font-size: small;
 		}
 		img {
-			width: 175px;
-			height: 165px;
+			width: 50%;
 		}
 	}
 
 	.about-wrapper {
-		min-height: 100svh;
+		min-height: 120svh;
 	}
 
 	.portfolio-wrapper {
@@ -602,16 +658,23 @@ footer {
 			font-size: small;
 		}
 		img {
-			width: 150px;
-			height: 140px;
+			width: 70%;
 		}
+	}
+
+	.about-wrapper {
+		min-height: 140svh;
 	}
 
 	.portfolio-wrapper {
 		.portfolio-page {
 			.portfolio-div {
 				.portfolio-width {
-					width: 60%;
+					width: 90%;
+				}
+
+				.portfolio-width-second {
+					width: 70%;
 				}
 			}
 		}
